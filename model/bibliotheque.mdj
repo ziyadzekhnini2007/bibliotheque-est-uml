@@ -1199,6 +1199,182 @@
 							"templateParameterCompartment": {
 								"$ref": "AAAAAAGhNUbW2gEPjtg="
 							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGhPETutt/RWos=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGhPETutN/PxOk="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGhPETutt/SiW8=",
+									"_parent": {
+										"$ref": "AAAAAAGhPETutt/RWos="
+									},
+									"model": {
+										"$ref": "AAAAAAGhPETutN/PxOk="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhPETutt/TENg=",
+											"_parent": {
+												"$ref": "AAAAAAGhPETutt/SiW8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhPETut9/Ubao=",
+											"_parent": {
+												"$ref": "AAAAAAGhPETutt/SiW8="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 269,
+											"top": 223,
+											"width": 75.419921875,
+											"height": 13,
+											"text": "Reservation"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhPETut9/VYrw=",
+											"_parent": {
+												"$ref": "AAAAAAGhPETutt/SiW8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhPETut9/W/i0=",
+											"_parent": {
+												"$ref": "AAAAAAGhPETutt/SiW8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 264,
+									"top": 216,
+									"width": 85.419921875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhPETutt/TENg="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGhPETut9/Ubao="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhPETut9/VYrw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhPETut9/W/i0="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhPETut9/XDmA=",
+									"_parent": {
+										"$ref": "AAAAAAGhPETutt/RWos="
+									},
+									"model": {
+										"$ref": "AAAAAAGhPETutN/PxOk="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 264,
+									"top": 241,
+									"width": 85.419921875,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhPETut9/YUFk=",
+									"_parent": {
+										"$ref": "AAAAAAGhPETutt/RWos="
+									},
+									"model": {
+										"$ref": "AAAAAAGhPETutN/PxOk="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 264,
+									"top": 251,
+									"width": 85.419921875,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhPETut9/Z6BQ=",
+									"_parent": {
+										"$ref": "AAAAAAGhPETutt/RWos="
+									},
+									"model": {
+										"$ref": "AAAAAAGhPETutN/PxOk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhPETut9/aktY=",
+									"_parent": {
+										"$ref": "AAAAAAGhPETutt/RWos="
+									},
+									"model": {
+										"$ref": "AAAAAAGhPETutN/PxOk="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 264,
+							"top": 216,
+							"width": 84.419921875,
+							"height": 45,
+							"nameCompartment": {
+								"$ref": "AAAAAAGhPETutt/SiW8="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhPETut9/XDmA="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhPETut9/YUFk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhPETut9/Z6BQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhPETut9/aktY="
+							}
 						}
 					]
 				},
@@ -1307,6 +1483,14 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Livre"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGhPETutN/PxOk=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Reservation"
 				}
 			]
 		},
